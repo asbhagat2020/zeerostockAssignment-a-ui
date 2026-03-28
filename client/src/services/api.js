@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://zeerostock-assignment-a-ui-mq2r.vercel.app";
 
 export const searchProducts = async (params) => {
   const query = new URLSearchParams(params).toString();
